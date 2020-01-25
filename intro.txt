@@ -1,1 +1,26 @@
-This is where the intro goes
+This	 is where the intro goes
+
+
+--go to your directory
+ -- git init DemoApp -- initializes a git local repo in the DemoApp Location
+ -- Use notepad++ to create different files that you want to store in your DemoApp
+ -- git add "file name" to add your file to the git repo -- staged on the git repo
+ -- git commit -m " message"
+ 
+ --if you have a bunch of files in your location instead of typing out each file name
+	-- Just do add . to add all the files
+
+-- Using git hub
+	--Through the git cmd 
+		-- Navigate to the folder location
+	-- Ask git if there is a remote already configured
+		--git remote -v  -- if no response then nothing setup
+		
+	-- git remote add origin https://github.com/falkowa42/secondRepo.git -- this is my repo on github
+	
+	--git remote -v
+		-- it will create two origins a fetch and a push
+	git push -u origin master -- pushes local content to the v- reference
+		-- then will have to login
+		-- my login first failed then had to SSH in 
+	-- after the User Name / PW goes through it loaded my files to github.
