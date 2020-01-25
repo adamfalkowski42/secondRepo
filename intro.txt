@@ -24,3 +24,14 @@ This	 is where the intro goes
 		-- then will have to login
 		-- my login first failed then had to SSH in 
 	-- after the User Name / PW goes through it loaded my files to github.
+	
+	
+	-- setup SSH Key -- with Github
+		-- This is just as secure but quicker as we will not have to keep putting in our creds
+		
+	-- ssh-keygen -t rsa -b 4096 -C "falkowa42@gmail.com"
+		-- will ask a series of questions -- such as entering a pass phrase
+		-- places the key at the location you accepted when calling the command
+			-- go to the key -- open the pub file up with notepad++ 
+			-- copy the whole key -- > go to your github account --> go to profile -- > settings --> SSH -- > paste in key. 
+			
